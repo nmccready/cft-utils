@@ -52,6 +52,6 @@
     "eslint-plugin-mocha": "10",
     "eslint-plugin-prettier": "5",
     "mocha": "10",
-    "sort-package-json": "1.42"
+    "sort-package-json": "2.10"
   }
 }
