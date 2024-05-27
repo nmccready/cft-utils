@@ -32,6 +32,6 @@ jobs:
           git config --local user.name "creadbot_github"
           set -v
           npm install
-          npx commit-and-tag-version --prerelease
+          npx commit-and-tag-version
           git push
           git push --tags
