@@ -5,12 +5,11 @@ on:
   pull_request:
     branches: ["main"]
 
-strategy:
-  matrix:
-    node-version: ['18.x', '20.x']
-
 jobs:
   test:
+    strategy:
+      matrix:
+        node-version: ['18.x', '20.x']
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
