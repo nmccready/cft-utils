@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "debug-fabulous": "2.0.2",
-    "globby": "11.1.0"
+    "globby": "14.0.2"
   },
   "devDependencies": {
     "@znemz/skip-npm-task": "0.1.0",
