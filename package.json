@@ -41,6 +41,8 @@
     "glob": "11.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19",
+    "@commitlint/config-conventional": "^19",
     "@znemz/skip-npm-task": "0.1.0",
     "aws-cdk-lib": "2",
     "commit-and-tag-version": "12",
