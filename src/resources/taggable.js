@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs/promises');
-const globby = require('globby');
+const { glob } = require('glob');
 
 const cachePath = path.join(__dirname, '..', 'cache');
 
@@ -41,7 +41,7 @@ const getResourcesFromAwsCdk = async () => {
     path.join(cdkDir, 'aws-*', 'lib', '*generated.d.ts'),
     `!${path.join(cdkDir, 'aws-*', 'lib', 'index.d.ts')}`,
   ];
-  const paths = await globby(globPaths);
+  const paths = await glob(globPaths);
   const nestedResourceNames = await Promise.all(
     paths.map((file) => fileToTaggableResourceNames(file))
   );
