@@ -37,7 +37,7 @@
     "unused:dependencies": "depcheck --ignore-bin-package --ignores @znemz/skip-npm-task,sort-package-json"
   },
   "dependencies": {
-    "debug-fabulous": "2.0.2",
+    "debug-fabulous": "2.0.8",
     "glob": "11.0.0"
   },
   "devDependencies": {
