@@ -53,7 +53,7 @@
     "eslint-config-standard": "17",
     "eslint-plugin-mocha": "10",
     "eslint-plugin-prettier": "5",
-    "mocha": "10",
+    "mocha": "11",
     "sort-package-json": "2.12"
   }
 }
