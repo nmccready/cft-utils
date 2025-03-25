@@ -1,6 +1,6 @@
 {
   "name": "@znemz/cft-utils",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "AWS CFT Utilities to fill the gaps for Cloud Formation",
   "keywords": [
     "cft",
