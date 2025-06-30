@@ -43,7 +43,7 @@ const getResourcesFromAwsCdk = async () => {
   ];
   const paths = await glob(globPaths);
   const nestedResourceNames = await Promise.all(
-    paths.map((file) => fileToTaggableResourceNames(file))
+    paths.map((file) => fileToTaggableResourceNames(file)),
   );
   return nestedResourceNames.flat();
 };
@@ -109,7 +109,7 @@ async function getCachedFile(cacheFile) {
     if (cached && cached.length > 0) {
       return cached;
     }
-  } catch (e) {
+  } catch {
     // do nothing
   }
 }
@@ -117,10 +117,10 @@ async function getCachedFile(cacheFile) {
 async function mkCacheDir() {
   try {
     await fs.access(cachePath);
-  } catch (e) {
+  } catch {
     try {
       await fs.mkdir(cachePath, { recursive: true });
-    } catch (e2) {
+    } catch {
       // --force
     }
   }
