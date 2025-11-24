@@ -38,13 +38,13 @@
   },
   "dependencies": {
     "debug-fabulous": "2.0.13",
-    "glob": "11.1.0"
+    "glob": "13.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^20",
     "@commitlint/config-conventional": "^20",
     "@znemz/skip-npm-task": "0.1.0",
-    "aws-cdk-lib": "2.222.0",
+    "aws-cdk-lib": "2.227.0",
     "commit-and-tag-version": "12",
     "commitlint": "20",
     "depcheck": "1.4.7",
