@@ -7,13 +7,13 @@
     "aws",
     "cloudformation"
   ],
-  "homepage": "https://github.com/nmccready/cft-utils#readme",
+  "homepage": "https://github.com/brickhouse-tech/cft-utils#readme",
   "bugs": {
-    "url": "https://github.com/nmccready/cft-utils/issues"
+    "url": "https://github.com/brickhouse-tech/cft-utils/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nmccready/cft-utils.git"
+    "url": "https://github.com/brickhouse-tech/cft-utils.git"
   },
   "author": "Nicholas McCready",
   "main": "src/index.js",
